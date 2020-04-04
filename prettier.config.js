@@ -6,7 +6,6 @@ module.exports = {
   insertPragma: false,
   jsxBracketSameLine: false,
   jsxSingleQuote: false,
-  parser: 'typescript',
   printWidth: 80,
   proseWrap: 'preserve',
   quoteProps: 'as-needed',
