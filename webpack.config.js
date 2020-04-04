@@ -2,12 +2,12 @@ const path = require('path');
 
 module.exports = {
   devServer: {
-    contentBase: path.resolve(__dirname, '../src/public'),
+    contentBase: path.resolve(__dirname, './src/public'),
     index: 'index.html',
     open: true,
   },
   devtool: 'inline-source-map',
-  entry: path.resolve(__dirname, '../src/index.ts'),
+  entry: path.resolve(__dirname, './src/index.ts'),
   mode: 'development',
   module: {
     rules: [
@@ -27,7 +27,7 @@ module.exports = {
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, '../build'),
+    path: path.resolve(__dirname, './build'),
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx'],

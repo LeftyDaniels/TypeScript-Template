@@ -4,10 +4,10 @@
   "description": "An empty npm project with a boilerplate built in.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config ./config/webpack.config.js",
+    "build": "webpack",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,6 +34,6 @@
     "webpack-dev-server": "^3.10.3"
   },
   "eslintConfig": {
-    "extends": "./config/.eslintrc.js"
+    "extends": "./.eslintrc.js"
   }
 }
